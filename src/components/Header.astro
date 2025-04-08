@@ -1,5 +1,25 @@
 ---
+
 ---
-<div>
-Header - tilføj navigation mm.
+
+<div class="navbar bg-base-100 shadow-sm grid grid-cols-2 mt-5">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div class="flex-none ml-auto">
+    <ul class="menu menu-horizontal px-1 flex space-x-4 mr-3">
+      <li><a>Link</a></li>
+      <li>
+        <details>
+          <summary>Parent</summary>
+          <ul class="bg-base-100 rounded-t-none p-2 text-center">
+            <li><a class="block">Link 1</a></li>
+            <li><a class="block">Link 2</a></li>
+            <li><a class="block">Link 3</a></li>
+            <li><a class="block">Link 4</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
 </div>
