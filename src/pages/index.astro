@@ -10,7 +10,7 @@ import thumbsup from "../assets/images/thumbsup.png";
   <!-- Hero section -->
   <div
     class="hero min-h-screen"
-    style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);"
+    style="background-image: url(https://images.unsplash.com/photo-1621644894301-cd6b2eaca610?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"
   >
     <div class="hero-overlay"></div>
     <div class="hero-content text-neutral-content text-center">
@@ -26,16 +26,493 @@ import thumbsup from "../assets/images/thumbsup.png";
     </div>
   </div>
 
-  <!-- <article>
-    <h1>Index overskrift</h1>
-    <Button>Klik!</Button>
-    <p>
-      Link til <Link href="https://www.kea.dk" target="_blank"
-        >En anden side</Link
-      >
-    </p>
-    <Image src={thumbsup} alt="" />
-  </article> -->
+  <!-- data sektion -->
+  <section class="mt-10 flex justify-center max-w-full">
+    <div class="stats shadow flex flex-col sm:flex-row">
+      <div class="stat place-items-center">
+        <div class="stat-title">Downloads</div>
+        <div class="stat-value">31K</div>
+        <div class="stat-desc">From January 1st to February 1st</div>
+      </div>
+
+      <div class="stat place-items-center">
+        <div class="stat-title">Users</div>
+        <div class="stat-value text-secondary">4,200</div>
+        <div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
+      </div>
+
+      <div class="stat place-items-center">
+        <div class="stat-title">New Registers</div>
+        <div class="stat-value">1,200</div>
+        <div class="stat-desc">↘︎ 90 (14%)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- cards section -->
+  <section class="mt-10 container max-w-full">
+    <!-- overskfrift -->
+    <h2>flaske tørste?</h2>
+    <!-- card 1 -->
+    <div class="grid lg:grid-cols-3 md:grid-cols-3 gap-4 p-4 max-w-full">
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img src="/public/redwine2.jpeg" alt="wine" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 4 -->
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 5 -->
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 6 -->
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 7 -->
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 8 -->
+      <div class="card bg-base-100 shadow-sm w-full">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <div class="rating">
+            <div class="mask mask-star" aria-label="1 star"></div>
+            <div class="mask mask-star" aria-label="2 star"></div>
+            <div class="mask mask-star" aria-label="3 star" aria-current="true">
+            </div>
+            <div class="mask mask-star" aria-label="4 star"></div>
+            <div class="mask mask-star" aria-label="5 star"></div>
+          </div>
+          <p>
+            A card component has a figure, a body part, and inside body there
+            are title and actions parts
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- abbo sektion -->
+  <section class="max-w-full mt-10 container pl-10 pr-10">
+    <!-- overskrift -->
+    <h2>overskrift</h2>
+    <div class="max-w-full grid lg:grid-cols-2 md:grid-cols-2 gap-15">
+      <div class="card w-full bg-base-100 shadow-sm">
+        <div class="card-body">
+          <span class="badge badge-xs badge-warning">Most Popular</span>
+          <div class="flex justify-between">
+            <h2 class="text-3xl font-bold">Premium</h2>
+            <span class="text-xl">$29/mo</span>
+          </div>
+          <ul class="mt-6 flex flex-col gap-2 text-xs">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>High-resolution image generation</span>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>Customizable style templates</span>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>Batch processing capabilities</span>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>AI-driven image enhancements</span>
+            </li>
+            <li class="opacity-50">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-base-content/50"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span class="line-through">Seamless cloud integration</span>
+            </li>
+            <li class="opacity-50">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-base-content/50"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span class="line-through">Real-time collaboration tools</span>
+            </li>
+          </ul>
+          <div class="mt-6">
+            <button class="btn btn-primary btn-block">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <!-- section 2  -->
+      <div class="card w-full bg-base-100 shadow-sm">
+        <div class="card-body">
+          <span class="badge badge-xs badge-warning">Most Popular</span>
+          <div class="flex justify-between">
+            <h2 class="text-3xl font-bold">Premium</h2>
+            <span class="text-xl">$29/mo</span>
+          </div>
+          <ul class="mt-6 flex flex-col gap-2 text-xs">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>High-resolution image generation</span>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>Customizable style templates</span>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>Batch processing capabilities</span>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-success"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span>AI-driven image enhancements</span>
+            </li>
+            <li class="opacity-50">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-base-content/50"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span class="line-through">Seamless cloud integration</span>
+            </li>
+            <li class="opacity-50">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 me-2 inline-block text-base-content/50"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 13l4 4L19 7"></path></svg
+              >
+              <span class="line-through">Real-time collaboration tools</span>
+            </li>
+          </ul>
+          <div class="mt-6">
+            <button class="btn btn-primary btn-block">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- overskrift -->
+
+  <!-- forms sektion -->
+  <section class="mt-10 max-w-xl lg:ml-135">
+    <fieldset
+      class="fieldset w-xs bg-base-200 border border-base-300 p-4 rounded-box"
+    >
+      <legend class="fieldset-legend">Page details</legend>
+
+      <label class="fieldset-label">Title</label>
+      <input type="text" class="input" placeholder="My awesome page" />
+
+      <label class="fieldset-label">Slug</label>
+      <input type="text" class="input" placeholder="my-awesome-page" />
+      <fieldset class="fieldset">
+        <legend class="fieldset-legend">Your bio</legend>
+        <textarea class="textarea h-24" placeholder="Bio"></textarea>
+        <div class="fieldset-label">Optional</div>
+      </fieldset>
+    </fieldset>
+  </section>
+
+  <!-- byg eet card undervisning -->
+  <section></section>
 </MainLayout>
 <!-- progress bar -->
 <div
